@@ -17,6 +17,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 /* NAVBAR */
@@ -130,7 +131,7 @@ body {
 /* SERVICES */
 
 .services {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .service-title {
@@ -147,8 +148,6 @@ body {
 .line {
   width: 56px;
   height: 2px;
-  left: 772px;
-  top: 1049px;
   background: #000000;
   border-radius: 5px;
   margin: 20px auto;
@@ -165,6 +164,8 @@ body {
 
   color: #7d7987;
 }
+
+/* CARDS */
 
 .cards {
   display: flex;
@@ -227,3 +228,373 @@ body {
   text-align: center;
   margin: 20px auto;
 }
+
+/* LANDING */
+
+.landing {
+  display: flex;
+  margin-top: 100px;
+}
+
+.landing-content {
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+.landing-image {
+  width: 650px;
+  height: 470px;
+}
+
+.landing-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  /* or 156% */
+
+  color: #000000;
+}
+
+.landing-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #7d7987;
+}
+
+.line-1 {
+  width: 56px;
+  height: 2px;
+  left: 772px;
+  top: 1049px;
+  background: #000000;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.learn-more-1 {
+  width: 200px;
+  height: 56px;
+  border: 1.4px solid #458ff6;
+  box-sizing: border-box;
+  border-radius: 55px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  /* identical to box height, or 333% */
+
+  color: #458ff6;
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* DOWNLOAD */
+
+.download {
+  display: flex;
+  margin-top: 100px;
+}
+
+.download-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  /* or 133% */
+
+  color: #000000;
+}
+
+.download-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #7d7987;
+}
+
+.download-button {
+  width: 200px;
+  height: 56px;
+  border: 1.4px solid #458ff6;
+  box-sizing: border-box;
+  border-radius: 55px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 60px;
+  /* identical to box height, or 333% */
+
+  color: #458ff6;
+  text-align: center;
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-button i {
+  margin-left: 10px;
+}
+
+.download-image img {
+  width: 655px;
+  height: 434px;
+  margin-left: 80px;
+}
+
+/* FEEDBACKS */
+
+.feedbacks {
+  width: 100%;
+  height: 425px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-content {
+  width: 85%;
+  margin-top: 80px;
+}
+
+.first-part h1 {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+
+  color: #ffffff;
+}
+
+.line-2 {
+  background: #ffffff;
+  border-radius: 6px;
+  width: 56px;
+  height: 2px;
+  margin: 30px auto;
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 133px;
+  height: 133px;
+  background: #c4c4c4;
+}
+
+.user-about {
+  margin-left: 45px;
+}
+
+.user-about h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 48px;
+  /* identical to box height, or 218% */
+
+  color: #ffffff;
+}
+
+.user-about h5 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: -10px;
+}
+
+.second-part {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.feedback {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 30px;
+  width: 420px;
+  margin: 0 auto;
+
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.arrows {
+  margin-top: 50px;
+}
+
+.arrows ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrows ul li {
+  margin-left: 25px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  left: 754px;
+  top: 4196px;
+  border-radius: 50%;
+  background: #5b9bf3;
+}
+
+/* ARTICLES */
+
+.articles {
+  margin-top: 100px;
+}
+
+.articles-title {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+  /* identical to box height, or 156% */
+
+  color: #000000;
+}
+
+.articles-content {
+  display: flex;
+}
+
+.article {
+  width: 350px;
+  height: 512px;
+  left: 240px;
+  top: 4596px;
+  margin: 20px;
+
+  background: #ffffff;
+  /* drop shadow */
+
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+
+.article img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.article-content {
+  width: 85%;
+  margin: 15px auto;
+}
+
+.article-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 32px;
+  /* or 152% */
+
+  color: #000000;
+}
+
+.article-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  margin: 20px 0;
+  color: #7d7987;
+}
+
+.article-more {
+  display: flex;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  /* identical to box height, or 165% */
+
+  color: #4089ed;
+}
+
+.article-more i {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+/* FOOTER */
+/* 
+.footer {
+  margin-top: 100px;
+  width: 133%;
+  margin-left: -20%;
+  height: 432px;
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  padding: 80px 85px;
+  display: flex;
+}
+
+.logo-first-1 {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+
+  color: rgba(69, 143, 246, 1);
+}
+
+.logo-second-1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.first-foot p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+ 
+  margin: 25px 0; 
+
+  color: #ffffff; 
+}
+
+ .first-foot h5 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  
+
+  color: #ffffff;
+}
+
+.second-foot ul {
+}  */
