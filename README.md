@@ -1,6 +1,5 @@
 # Trafalgar-UI
 
-https://muradmuzaffar.github.io/Trafalgar-UI/
 
 I tried to code the design at the link below
 
